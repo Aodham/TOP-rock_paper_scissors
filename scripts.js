@@ -46,6 +46,8 @@ function game () {
 
     if (playerScore > cpuScore) {
             console.log("Great! You win this game.");
+    } else if (playerScore === cpuScore) {
+            console.log("Mmm, you've tied against the CPU.")
     } else {
             console.log("Ouch! You loose this game.");
     }
