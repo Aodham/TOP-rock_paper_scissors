@@ -31,6 +31,9 @@ let restart = () => {
 	reset.style.display = "none";
 }
 
+
+// Listeners
+
 arenaButtons.forEach((button) => {
 	button.addEventListener('click', (e) => {
 		reset.style.display = "block";
