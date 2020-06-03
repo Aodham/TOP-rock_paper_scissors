@@ -1,0 +1,43 @@
+html {
+  font-size: 80%; /* 100% = 16px */
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1em;
+}
+
+#arena button {
+  width: 80%;
+  background-color: DodgerBlue;
+  border: 0;
+  height: 2em;
+  margin: .1em 0;
+  color: white;
+  font-size: 3em;
+}
+
+#reset {
+  display: block;
+  margin: 1em auto;
+  font-size: 2em;
+  width: 4em;
+  height: 2em;
+  background-color: gray;
+  border: 0;
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 60em;
+    margin: auto;
+  }
+  #arena button {
+    width: 6em;
+  }
+}
